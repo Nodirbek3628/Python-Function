@@ -1,13 +1,16 @@
-def check_guess(secret,guess):                 #Number Guessing Game (Random ishlatilmaydi)
-    return secret == guess
+def check_guess(secret, guess):
+  result = secret == guess
+  return result
+
 def print_result(is_correct):
-    if is_correct:
-        print("To'g'ri topdingiz ")
-    else:
-        print("Xato topdingiz ")
-secret = 7    # Sirli sonni o‘zgaruvchi sifatida beramiz (masalan, 7)
+  if is_correct:
+    print("siz to'g'ri topdingiz: ")
+  else:
+    print(f"Afsus siz topa olmadz sirli son {secret} ")
 
-guess = int(input("taxmin soningizni kiriting (0-10)"))
 
-a = check_guess(secret,guess)
-print_result(a)
+secret = 75  # kompyuter uchun sirli son.
+guess = int(input("Sirli sonni kiriting:"))
+
+is_correct = check_guess(secret,guess)
+print_result(is_correct)
