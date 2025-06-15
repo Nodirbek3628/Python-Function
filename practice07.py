@@ -5,7 +5,7 @@ def ask_question(question:str):         # Savol beriladi, javobni tekshiradi
     Returns:
         str: Foydalanuvchining javobi (qirqilgan).
     Errors:
-        None (input noto'g'ri bo'lsa ham faqat string qaytariladi).
+        None (input noto'g'ri bo'lsa ham faqat string qaytariladi)..
     """
     user_answer = input(f"{question}").strip()
     return user_answer

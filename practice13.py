@@ -10,7 +10,7 @@ def is_palindrome(text):
     Args:
         text (str): Foydalanuvchi kiritgan so'z.
     Returns:
-        bool: True agar palindrom bo'lsa, aks holda False.
+        bool: True agar palindrom bo'lsa, aks holda False
     Errors:
         None, ammo faqat harfli so'zlar bilan ishlashi kerak.
     """

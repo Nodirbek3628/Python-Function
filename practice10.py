@@ -1,6 +1,6 @@
     #Parolni kiritadi, kuchli yoki kuchsizligini tekshiradi (masalan, uzunligi 8 dan katta bo‘lsa kuchli)
 def is_strong_password(password: str):
-    """ Parol kuchini baholaydi.
+    """ Parol kuchini baholaydi..
     Args:
         password (str): Foydalanuvchi kiritgan parol.
     Returns:

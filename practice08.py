@@ -7,7 +7,7 @@ def c_to_f(celsius):              #Celsius ↔ Fahrenheit aylantirish
     Errors:
         TypeError: Agar celsius raqam bo'lmasa (masalan: matn, None)."""
     
-    return 9/5*celsius+32         #Celsius'dan Fahrenheit'ga aylantiradi.
+    return 9/5*celsius+32         #Celsius'dan Fahrenheit'ga aylantiradi
 
 def f_to_c(fahrenheit):
     return 5/9*(fahrenheit-32)    #Fahrenheit'dan Celsius'ga aylantiradi

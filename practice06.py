@@ -6,7 +6,7 @@ def is_valid_phone_number(phone: str):        #Telefon raqam 9 ta raqamdan ibora
         bool: True agar faqat raqamlardan iborat va uzunligi 9 bo'lsa, aks holda False.
 
     Errors:
-        None (lekin noto'g'ri input bo'lsa False qaytadi).
+        None (lekin noto'g'ri input bo'lsa False qaytadi)
     """
     return phone.isdigit() and len(phone) == 9
 

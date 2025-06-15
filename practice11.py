@@ -7,7 +7,7 @@ def calculate_soliq(maosh):
     Args:
         maosh (float): Ish haqi (so'mda)
     Returns:
-        float: Soliq miqdori (so'mda)
+        float: Soliq miqdori (so'mda).
     Errors:
         TypeError: Agar `maosh` raqam (float/int) bo'lmasa."""
     

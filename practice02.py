@@ -9,7 +9,7 @@ def calculate_age(birth_year: int, current_year=2025):      # hozirgi yilning cu
         int: The sum of "birt_year" and "current_year"
     Raises:
         TypeError: Notug'ri turdagi qiymat
-        SyntaxError: Notug'ri yozilgan kod"""
+        SyntaxError: Notug'ri yozilgan kod."""
     result = current_year - birth_year
     return result
 

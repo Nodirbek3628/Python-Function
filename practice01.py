@@ -5,7 +5,7 @@ def add(a: int, b: int):
     bu function ikki sonning yig'indisini topishda keng qullaniladi.
 
     Args:
-        a (int): a qiymat qabul qiladi.
+        a (int): a qiymat qabul qiladi..
         b (int): b qiymat qabul qiladi.
     Returns:
         int: a va b ning yig'indisining chiqarib beradi.

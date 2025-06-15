@@ -10,7 +10,7 @@ def check_guess(secret, guess):
         bool: True agar to'g'ri topsa, aks holda False.
 
     Errors:
-        TypeError: Agar 'secret' yoki 'guess' butun son (int) bo'lmasa.
+        TypeError: Agar 'secret' yoki 'guess' butun son (int) bo'lmasa
     """
   return secret == guess
 

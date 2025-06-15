@@ -3,7 +3,7 @@
 # Funksiya:
 
 # calculate_bmi(weight: float, height: float) -> float
-# bmi_status(bmi: float) -> str
+# bmi_status(bmi: float) -> str.
 lang = "uzb"
 def select_lang():
     global lang
@@ -16,7 +16,7 @@ def chek_lang():
     global lang
     lang = "eng"
 
-def calculate_bmi(weight, height):
+def calculate_bmi(weight:float, height:float):
     """
     Tana massasi indeksini (BMI) hisoblaydi.
 
