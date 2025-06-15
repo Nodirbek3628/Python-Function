@@ -3,13 +3,14 @@
 balance = 0.0
 
 def deposit(balance, amount): 
+  """"""
   amount = float(input("Summani kiritin")) 
   balance += amount
 
 def withdraw(balance, amount):
     amount = float(input("Yechiladigan summa"))         #Foydalanuvchining balansi bor. U `deposit`, `withdraw` yoki `check balance` qiladi.
     if amount <= balance:
-            balance = amount
+        balance -= amount
     else:
         print("Balans yetarli emas ")
 

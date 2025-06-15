@@ -1,4 +1,15 @@
-def calculate_age(birth_year, current_year=2025):           # hozirgi yilning current_year qilib taminlab oldik 
+def calculate_age(birth_year: int, current_year=2025):      # hozirgi yilning current_year qilib taminlab oldik 
+    """ Foydalanuvchini tug'ulgan sanasini anig'lab beardi.
+    Bu functionda foydalanuvchi faqatgina uzini tug'ulgan yilini kiritadi va dastur foydalanuvchidan hozirgi yilni kiritishini suramaydi
+    bunda hozigi yilimz argumentda tamminlangan buladi: Foydalanuvchi hozirgi yilni kiritmaydi tizim avtomatik hisoblydi' 
+    Args:
+        birt_year (int): bu argument qiymat qabul qiladi
+        current_year(int): Bu argument hozirgi yil bilan taminlangan
+    Returns:
+        int: The sum of "birt_year" and "current_year"
+    Raises:
+        TypeError: Notug'ri turdagi qiymat
+        SyntaxError: Notug'ri yozilgan kod"""
     result = current_year - birth_year
     return result
 

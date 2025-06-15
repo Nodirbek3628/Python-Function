@@ -6,9 +6,18 @@
 # is_palindrome(text: str)
 
 def is_palindrome(text):
+    """ So'z palindrom ekanligini tekshiradi
+    Args:
+        text (str): Foydalanuvchi kiritgan so'z.
+    Returns:
+        bool: True agar palindrom bo'lsa, aks holda False.
+    Errors:
+        None, ammo faqat harfli so'zlar bilan ishlashi kerak.
+    """
     return text.lower() == text[::-1].lower()
 
 def main():
+
     while True:
         text = input("\nSo'z kiriting: ")
 
