@@ -8,7 +8,7 @@ def deposit(balance, amount):
   balance += amount
 
 def withdraw(balance, amount):
-    amount = float(input("Yechiladigan summa"))         #Foydalanuvchining balansi bor.. U `deposit`, `withdraw` yoki `check balance` qiladi.
+    amount = float(input("Yechiladigan summa"))         #Foydalanuvchining balansi bor. U `deposit`, `withdraw` yoki `check balance` qiladi.
     if amount <= balance:
         balance -= amount
     else:

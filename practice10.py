@@ -6,7 +6,7 @@ def is_strong_password(password: str):
     Returns:
         None: Natijani ekranga chiqaradi.
     Errors:
-        TypeError: Agar password str bo'lmasa.
+        TypeError: Agar password str bo'lmasa
     """
     if len(password)>=8:
         print("Kuchli parol:")

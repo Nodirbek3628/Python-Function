@@ -12,7 +12,7 @@ def is_palindrome(text):
     Returns:
         bool: True agar palindrom bo'lsa, aks holda False
     Errors:
-        None, ammo faqat harfli so'zlar bilan ishlashi kerak.
+        None, ammo faqat harfli so'zlar bilan ishlashi kerak
     """
     return text.lower() == text[::-1].lower()
 

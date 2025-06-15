@@ -15,7 +15,7 @@ def get_grade(score:int):           #Foydalanuvchi ball kiritadi → `A`, `B`, `
     #     None: Natijani `print()` orqali ekranga chiqaradi.
 
     # Raises:
-    #     ValueError: Agar score manfiy bo'lsa yoki 100 dan katta bo'lsa.
+    #     ValueError: Agar score manfiy bo'lsa yoki 100 dan katta bo'ls.
     #     TypeError: Agar score butun son (int) bo'lmasa
     # """
     if 85 <= score <= 100:

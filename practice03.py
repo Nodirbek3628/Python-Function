@@ -7,7 +7,7 @@ def is_even(number:int):    # biz birinchi qasi son juft qaysi son toq bolishini
         bool: Agar son juft bo‘lsa True, agar toq bo‘lsa False.
     Raises:
         TypeError: Notug'ri turdagi qiymat
-        SyntaxError: Notug'ri yozilgan kod.
+        SyntaxError: .Notug'ri yozilgan kod.
     """
     result = number % 2 == 0
     return result

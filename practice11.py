@@ -3,7 +3,7 @@
 # Soliq stavkasi o‘zgarishi mumkin (masalan, >5mln bo‘lsa 20%, boshqacha 13%).
 
 def calculate_soliq(maosh):
-    """ Berilgan maoshdan olinadigan soliqni hisoblaydi.
+    """ Berilgan maoshdan olinadigan soliqni hisoblaydi
     Args:
         maosh (float): Ish haqi (so'mda)
     Returns:

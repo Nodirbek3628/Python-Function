@@ -11,7 +11,7 @@ def select_lang():
 
 def chek_lang():
     """Foydalanuvchidan tilni tanlashini so'raydi va global `lang` o'zgaruvchisini yangilaydi.
-    Faqat 'uzb' yoki 'eng' tillarini qabul qiladi. Noto'g'ri kiritilsa, 'uzb' qilib o'rnatiladi.
+    Faqat 'uzb' yoki 'eng' tillarini qabul qiladi. Noto'g'ri kiritilsa, 'uzb' qilib o'rnatiladi
     """
     global lang
     lang = "eng"
